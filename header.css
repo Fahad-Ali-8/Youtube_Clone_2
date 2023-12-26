@@ -47,6 +47,12 @@
     color: white;
     margin-top: 5px;
 }
+@media(max-width:600px){
+    .search-bar{
+        width: 50px;
+        margin-left: -80px;
+    }
+}
 
 
 .search-button{
@@ -132,6 +138,14 @@
     position: fixed;
     right: 100px;
 }   
+
+
+@media(max-width:600px){
+    .last-section{
+        width: 50px;
+    }
+}
+
 
 .upload-icon{
     height: 23px;

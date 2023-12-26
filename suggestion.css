@@ -17,7 +17,7 @@
 @media(max-width:600px){
     .suggestion{
         left: 10px;
-        right: 400px;
+        right: 800px;
     }
 }
 
@@ -64,4 +64,14 @@
 .suggestion-9:hover,
 .suggestion-10:hover{
     background-color: gray;
+}
+
+@media(max-width:600px){
+    .suggestion-5,
+    .suggestion-6,
+    .suggestion-7,
+    .suggestion-8,
+    .suggestion-9{
+        display: none;
+    }
 }

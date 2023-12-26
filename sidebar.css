@@ -19,7 +19,12 @@ div{
     bottom: 0;
     left: 0px;
     width: 220px;
-   
+}
+
+@media(max-width:600px){
+    .sidebar{
+        display: none;
+    }
 }
 
 .section-1{
@@ -57,11 +62,7 @@ div{
     font-weight: bold;
 }
 
-@media(max-width:600px){
-    .home-text{
-        display: none;
-    }
-}
+
 
 .youtube-shorts-container{
     display: flex;
