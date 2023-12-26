@@ -1,0 +1,60 @@
+.suggestion{
+    position:fixed;
+    top: 50px;
+    right: 30px;
+    left: 240px;
+    bottom: 560px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 10px;
+    height: 50px;
+    background-color: #0F0F0F;
+}
+
+.suggestion-1{
+    height: 30px;
+    width: 35px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.suggestion-2,
+.suggestion-3,
+.suggestion-4,
+.suggestion-5,
+.suggestion-6,
+.suggestion-7,
+.suggestion-8,
+.suggestion-9,
+.suggestion-10{
+    height: 30px;
+    background-color: rgb(83, 83, 83);
+    border: none;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.suggestion-2:hover,
+.suggestion-3:hover,
+.suggestion-4:hover,
+.suggestion-5:hover,
+.suggestion-6:hover,
+.suggestion-7:hover,
+.suggestion-8:hover,
+.suggestion-9:hover,
+.suggestion-10:hover{
+    background-color: gray;
+}

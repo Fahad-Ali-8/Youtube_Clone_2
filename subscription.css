@@ -1,0 +1,43 @@
+.container{
+    position: fixed;
+    top: 50px;
+    left: 257px;
+    right: 70px;
+    height: 80px;
+    background-color: #0F0F0F;
+    display: flex;
+    align-items: center;
+}
+
+.latest-text{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscription-section-2{
+    position: fixed;
+    top: 50px;
+    left: 257px;
+    right: 70px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 5px 0px 5px; */
+    background-color: #0F0F0F;
+    margin-left: 780px;
+    width: 200px;
+}
+
+.manage-text{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.grid-icon{
+    height: 20px;
+}   
+
+.list-icon{
+    height: 20px;
+}

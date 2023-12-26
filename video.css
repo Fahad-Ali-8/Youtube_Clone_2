@@ -1,0 +1,147 @@
+.videos-section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 60px;
+    column-gap: 5px;
+    margin-left: 250px;
+    margin-top: 140px;
+    width: 1000px;
+}
+
+.videos-section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 60px;
+    column-gap: 5px;
+    margin-left: 250px;
+    margin-top: 200px;
+    width: 1000px;
+}
+
+.video-1{
+  
+}
+
+.thumbnail-container{
+    position: relative;
+}
+
+.time{
+    position: absolute;
+    bottom: 7px;
+    right: 15px;
+    background-color: black;
+    padding: 2px 2px 2px 2px;
+    border-radius: 4px;
+}
+
+
+
+.thumbnail{
+    height: 170px;
+    width: 320px;
+    background-color: aqua;
+
+}
+
+.video-details{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.profile-picture{
+    height: 37px;
+    border-radius: 20px;
+}
+
+.right-section{
+    margin-left: 12px;
+}
+
+.video-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 600;
+    font-family:Arial;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.channel-name{
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.channel-stats{
+    font-size: 14px;
+    margin-top: -10px;
+    color: rgb(182, 182, 182);
+    font-weight: lighter;
+}
+
+.shorts-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    z-index: 10000;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.shorts{
+
+}
+
+.Short-1-title{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.Short-1-views{
+    color: rgb(167, 167, 167);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: -10px;
+
+}
+
+.shorts-title-container{
+    display: flex;
+}
+
+.shorts-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.shorts-icon{
+    height: 30px; 
+}
+
+.short{
+    height: 500px;
+    width: 240px;
+    border-radius: 10px;
+
+}
+/* 
+.videos-section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 60px;
+    column-gap: 5px;
+    margin-left: 250px;
+    margin-top: 140px;
+    width: 1000px;
+} */
