@@ -1,0 +1,347 @@
+.shorts-container{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.shorts-details-1{
+    position: absolute;
+    top: 420px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+.shorts-section-1{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.short-1{
+    border-radius: 20px;
+    width: 330px;
+    height: 570px;
+    margin-bottom: 100px;
+}
+
+.short-1-profile-picture{
+    height: 30px;
+    border-radius: 50%;
+}
+.short-1-channel-name{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.short-1-subscribe-button{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    background-color: rgb(151, 151, 151,0.5);
+    padding: 7px 7px 7px 7px;
+    border-radius: 20px;
+}
+
+.short-1-title{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+.shorts-details-2{
+    position: absolute;
+    top: 1080px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+.shorts-section-2{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+.short-2{
+    border-radius: 20px;
+    width: 330px;
+    height: 570px;
+    margin-bottom: 100px;
+}
+
+.short-2-profile-picture{
+    height: 30px;
+    border-radius: 50%;
+}
+.short-2-channel-name{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.short-2-subscribe-button{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    background-color: rgb(151, 151, 151,0.5);
+    padding: 7px 7px 7px 7px;
+    border-radius: 20px;
+}
+
+.short-2-title{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+.shorts-details-3{
+    position: absolute;
+    top: 1750px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+.shorts-section-3{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+.short-3{
+    border-radius: 20px;
+    width: 330px;
+    height: 570px;
+    margin-bottom: 100px;
+}
+
+.short-3-profile-picture{
+    height: 30px;
+    border-radius: 50%;
+}
+.short-3-channel-name{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.short-3-subscribe-button{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    background-color: rgb(151, 151, 151,0.5);
+    padding: 7px 7px 7px 7px;
+    border-radius: 20px;
+}
+
+.short-3-title{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+
+
+
+.shorts-details-4{
+    position: absolute;
+    top: 2420px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+.shorts-section-4{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+.short-4{
+    border-radius: 20px;
+    width: 330px;
+    height: 570px;
+    margin-bottom: 100px;
+}
+
+.short-4-profile-picture{
+    height: 30px;
+    border-radius: 50%;
+}
+.short-4-channel-name{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.short-4-subscribe-button{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    background-color: rgb(151, 151, 151,0.5);
+    padding: 7px 7px 7px 7px;
+    border-radius: 20px;
+}
+
+.short-4-title{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+.shorts-buttons{
+    z-index: 10000;
+}
+
+.short-1-buttons{
+    position: absolute;
+    top: -80px;
+    right: 820px;
+}
+
+
+.short-2-buttons{
+    position: absolute;
+    top: 590px;
+    right: 820px;
+}
+
+.short-3-buttons{
+    position: absolute;
+    top: 1260px;
+    right: 820px;
+}
+
+.short-4-buttons{
+    position: absolute;
+    top: 1940px;
+    right: 820px;
+}
+
+.button-1{
+    height: 20px;
+    position: absolute;
+    top: 200px;
+    left: 840px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    background-color:  rgb(45, 45, 45);
+}
+
+.button-1:hover,
+.button-2:hover,
+.button-3:hover,
+.button-4:hover,
+.button-5:hover{
+
+    
+    background-color: rgb(77, 77, 77);
+}
+
+.button-1-text{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 235px;
+    left: 848px;
+}
+
+.button-2{
+    height: 20px;
+    position: absolute;
+    top: 280px;
+    left: 840px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    background-color:  rgb(45, 45, 45);
+}
+
+.button-2-text{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 315px;
+    left: 842px;
+}
+
+
+.button-3{
+    height: 20px;
+    position: absolute;
+    top: 360px;
+    left: 840px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    background-color:  rgb(45, 45, 45);
+}
+
+.button-3-text{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 395px;
+    left: 853px;
+}
+
+.button-4{
+    height: 20px;
+    position: absolute;
+    top: 440px;
+    left: 840px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    background-color: rgb(45, 45, 45);
+}
+
+.button-4-text{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 475px;
+    left: 844px;
+}
+
+.button-5{
+    height: 20px;
+    position: absolute;
+    top: 520px;
+    left: 840px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    background-color:  rgb(45, 45, 45);
+}
+
+.button-5-text{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 555px;
+    left: 840px;
+}
+
+
+.button-6{
+    height: 40px;
+    position: absolute;
+    top: 573px;
+    left: 831px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
